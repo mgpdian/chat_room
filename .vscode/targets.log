@@ -1,0 +1,278 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu May 12 17:07:34 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/mgpdian/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/mgpdian/chat_room
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/home/mgpdian/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/home/mgpdian/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/home/mgpdian/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/home/mgpdian/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/mgpdian/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/mgpdian
+# environment
+SSH_CONNECTION = 192.168.200.1 50583 192.168.200.132 22
+# environment
+PATH = /home/mgpdian/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+VSCODE_LOG_STACK = false
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/mgpdian/chat_room
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-161ae636-6b86-413a-a0d3-9c8f8579fe0d.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/mgpdian
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = mgpdian
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+XDG_SESSION_ID = 7
+# environment
+USER = mgpdian
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.200.1 50583 22
+# environment
+MAIL = /var/mail/mgpdian
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/mgpdian/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=68/1024=7%, Rehash=0, Collisions=8/93=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 1059663): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+test_client: test_client.cpp client.cpp client.h global.h
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-12 17:02:17.778505247
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 5):
+	$(CXX) $^ -o $@  -lpthread -lmysqlclient -lhiredis
+
+all: test_server test_client
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+global.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-12 15:15:51.326645845
+#  File has been updated.
+#  Successfully updated.
+
+test_server: test_server.cpp server.cpp server.h global.h
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-12 17:02:05.630491148
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 3):
+	$(CXX) $^ -o $@  -lpthread -lmysqlclient -lhiredis 
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-12 17:03:27.950600296
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+client.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-11 16:13:39.271726283
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test_client.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-11 15:19:54.924866551
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+client.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-12 14:45:19.513179045
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 7):
+	rm test_server
+	rm test_client
+
+# Not a target:
+server.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-12 16:39:52.773976507
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test_server.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-11 14:45:55.477814842
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+server.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-12 17:01:44.606468501
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/37=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 24 / storage = 252 B / avg = 10 B
+# current buf: size = 8162 B / used = 252 B / count = 24 / avg = 10 B
+
+# strcache performance: lookups = 45 / hit rate = 46%
+# hash-table stats:
+# Load=24/8192=0%, Rehash=0, Collisions=1/45=2%
+# Finished Make data base on Thu May 12 17:07:34 2022
+
+ 
